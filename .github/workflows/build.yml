@@ -31,5 +31,5 @@ jobs:
       - name: Upload artifact
         uses: actions/uoload-artifact@v4
         with:
-          name：test
+          name: test
           path: output
