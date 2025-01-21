@@ -28,4 +28,8 @@ jobs:
         run: ./gradlew applyPatches
       - name: Build
         run: ./gradlew build
-#just a test
+      - name: Upload artifact
+        uses: actions/uoload-artifact@v4
+        with:
+          name：test
+          path: output
